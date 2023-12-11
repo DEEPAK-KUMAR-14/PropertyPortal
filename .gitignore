@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment-specific files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build and Dependency Directories
+build/
+lib/
+out/
+node_modules/
+
+# Compiled code or binaries
+*.class
+*.jar
+
+# User-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+
+# Your specific build artifacts
+dist/
+dist-ssr/
+*.local
