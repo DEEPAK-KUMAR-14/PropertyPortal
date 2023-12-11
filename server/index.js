@@ -7,6 +7,12 @@ import cors from 'cors'; // Import the cors middleware
 import cookieParser from 'cookie-parser';
 import path from 'path';
 
+//Importing routes 
+import userRouter from './routes/user.route.js';
+import authRouter from './routes/auth.route.js';
+import listingRouter from './routes/listing.route.js';
+
+
 dotenv.config();
 
 mongoose.connect(process.env.MONGO)
