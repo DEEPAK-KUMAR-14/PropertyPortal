@@ -2,7 +2,6 @@
 
 [build]
   command = "npm run build"    # Adjust the build command as per your project setup
-  publish = "dist"     # Adjust the publish directory based on your build output
 
 [[redirects]]
   from = "/api/*"
